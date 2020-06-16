@@ -16,7 +16,7 @@ namespace TestingGit
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new MySecondForm());
+			Application.Run(new Form1());
 		}
 	}
 }
