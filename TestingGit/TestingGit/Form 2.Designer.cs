@@ -28,18 +28,18 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(325, 91);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+			this.label1 = new System.Windows.Forms.Label();
+			this.label2 = new System.Windows.Forms.Label();
+			this.SuspendLayout();
+			// 
+			// label1
+			// 
+			this.label1.AutoSize = true;
+			this.label1.Location = new System.Drawing.Point(325, 91);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(35, 13);
+			this.label1.TabIndex = 0;
+			this.label1.Text = "label1";
             // 
             // label2
             // 
@@ -56,14 +56,14 @@
             // Form_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(239, 131);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Name = "Form_2";
-            this.Text = "Form_2";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.ClientSize = new System.Drawing.Size(239, 131);
+			this.Controls.Add(this.label2);
+			this.Controls.Add(this.label1);
+			this.Name = "Form_2";
+			this.Text = "Form_2";
+			this.ResumeLayout(false);
+			this.PerformLayout();
 
 		}
 

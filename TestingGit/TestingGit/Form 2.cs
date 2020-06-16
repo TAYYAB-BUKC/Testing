@@ -15,6 +15,7 @@ namespace TestingGit
 		public Form_2()
 		{
 			InitializeComponent();
+			label1.Text = "This is the text of the label";
 		}
     }
 }
