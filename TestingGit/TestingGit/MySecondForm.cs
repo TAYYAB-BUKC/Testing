@@ -25,10 +25,8 @@ namespace TestingGit
         private void button1_Click(object sender, EventArgs e)
         {
             Label l1 = new Label();
-            l1.Text = "Button has been clicked";
-            
-            l1.Show();
-            
+            l1.Text = "Button has not been clicked";
+            l1.Visible = true;
         }
     }
 }
