@@ -51,10 +51,19 @@
     <Compile Include="MyForm.Designer.cs">
       <DependentUpon>MyForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MySecondForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySecondForm.Designer.cs">
+      <DependentUpon>MySecondForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySecondForm.resx">
+      <DependentUpon>MySecondForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
