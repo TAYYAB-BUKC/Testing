@@ -48,11 +48,12 @@
             // MyButton
             // 
             this.MyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MyButton.ForeColor = System.Drawing.Color.Red;
             this.MyButton.Location = new System.Drawing.Point(51, 66);
             this.MyButton.Name = "MyButton";
             this.MyButton.Size = new System.Drawing.Size(154, 65);
             this.MyButton.TabIndex = 1;
-            this.MyButton.Text = "Click Me!!! ";
+            this.MyButton.Text = "Donot Click";
             this.MyButton.UseVisualStyleBackColor = true;
             this.MyButton.Click += new System.EventHandler(this.MyButton_Click);
             // 
