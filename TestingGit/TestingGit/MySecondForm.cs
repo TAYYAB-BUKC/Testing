@@ -26,7 +26,9 @@ namespace TestingGit
         {
             Label l1 = new Label();
             l1.Text = "Button has been clicked";
-            l1.Visible = true;
+            
+            l1.Show();
+            
         }
     }
 }
