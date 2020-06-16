@@ -15,6 +15,7 @@ namespace TestingGit
         public Form1()
         {
             InitializeComponent();
+            label1.Text = "This is label text";
         }
 
 		private void MyButton_Click(object sender, EventArgs e)
