@@ -21,5 +21,12 @@ namespace TestingGit
 		{
 			MessageBox.Show("This is my Second Form and I build it during your work", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information); 
 		}
-	}
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Label l1 = new Label();
+            l1.Text = "Button has been clicked";
+            l1.Visible = true;
+        }
+    }
 }
