@@ -16,5 +16,10 @@ namespace TestingGit
         {
             InitializeComponent();
         }
-	}
+
+		private void MyButton_Click(object sender, EventArgs e)
+		{
+            MessageBox.Show("Fahad's Form Updated", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+    }
 }

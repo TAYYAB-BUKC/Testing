@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
 			this.label1 = new System.Windows.Forms.Label();
+			this.MyButton = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -42,11 +43,23 @@
 			this.label1.TabIndex = 0;
 			this.label1.Text = "Muhammad Fahad";
 			// 
+			// MyButton
+			// 
+			this.MyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.MyButton.Location = new System.Drawing.Point(51, 55);
+			this.MyButton.Name = "MyButton";
+			this.MyButton.Size = new System.Drawing.Size(154, 65);
+			this.MyButton.TabIndex = 1;
+			this.MyButton.Text = "Click Me!!! ";
+			this.MyButton.UseVisualStyleBackColor = true;
+			this.MyButton.Click += new System.EventHandler(this.MyButton_Click);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(256, 82);
+			this.ClientSize = new System.Drawing.Size(232, 132);
+			this.Controls.Add(this.MyButton);
 			this.Controls.Add(this.label1);
 			this.Name = "Form1";
 			this.Text = "Form1";
@@ -58,5 +71,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-    }
+		private System.Windows.Forms.Button MyButton;
+	}
 }

@@ -34,7 +34,7 @@
 			// MyButton
 			// 
 			this.MyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.MyButton.Location = new System.Drawing.Point(50, 44);
+			this.MyButton.Location = new System.Drawing.Point(42, 39);
 			this.MyButton.Name = "MyButton";
 			this.MyButton.Size = new System.Drawing.Size(154, 65);
 			this.MyButton.TabIndex = 0;
@@ -46,7 +46,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(255, 157);
+			this.ClientSize = new System.Drawing.Size(249, 147);
 			this.Controls.Add(this.MyButton);
 			this.Name = "MySecondForm";
 			this.Text = "MySecondForm";
